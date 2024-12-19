@@ -1,0 +1,30 @@
+nav {
+  background-color: #333;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  -webkit-transition: color 2s ease;
+  -moz-transition: color 2s ease;
+  -ms-transition: color 2s ease;
+  -o-transition: color 2s ease;
+  transition: color 2s ease;
+}
+nav a:hover {
+  color: rgba(255, 20, 147, 0.6);
+}
+nav a.active {
+  color: deeppink;
+}
+
+/*# sourceMappingURL=nav.css.map */

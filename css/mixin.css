@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import "main.css";
+.actions {
+  margin: 20px 0;
+}
+
+/* Mixin avec paramètres */
+.btnSave {
+  background-color: #222;
+  color: #FFF;
+  border-radius: 6px;
+  font-size: 1rem;
+  padding: 10px;
+  margin: 0 1em;
+  border: 0;
+  cursor: pointer;
+  background-color: #55AAFF;
+}
+
+.btnValidate {
+  background-color: #222;
+  color: #FFF;
+  border-radius: 6px;
+  font-size: 1rem;
+  padding: 10px;
+  margin: 0 1em;
+  border: 0;
+  cursor: pointer;
+  background-color: #3cb371;
+}
+
+.btnClose {
+  background-color: #222;
+  color: #FFF;
+  border-radius: 6px;
+  font-size: 1rem;
+  padding: 10px;
+  margin: 0 1em;
+  border: 0;
+  cursor: pointer;
+  background-color: #FF0055;
+}
+
+/*# sourceMappingURL=mixin.css.map */
