@@ -1,0 +1,36 @@
+// colors.scss
+@use "main";
+
+#couleur p {
+  font-family: Verdana, sans-serif;
+}
+
+#couleur {
+  .red {
+    color: red;
+  }
+  .blue {
+    color: blue;
+  }
+  .green {
+    color: green;
+  }
+}
+
+#fond p {
+  font-family: Tahoma, sans-serif;
+  color: white;
+  padding: 4px 8px;
+}
+
+#fond {
+  .red {
+    background-color: red;
+  }
+  .blue {
+    background-color: blue;
+  }
+  .green {
+    background-color: green;
+  }
+}

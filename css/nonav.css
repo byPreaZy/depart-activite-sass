@@ -14,6 +14,10 @@ nav a {
   color: white;
   text-transform: uppercase;
   padding: 10px;
+  -webkit-transition: color 2s ease;
+  -moz-transition: color 2s ease;
+  -ms-transition: color 2s ease;
+  -o-transition: color 2s ease;
   transition: color 2s ease;
 }
 nav a:hover {

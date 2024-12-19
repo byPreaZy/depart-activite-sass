@@ -1,0 +1,30 @@
+@import "main.css";
+#couleur p {
+  font-family: Verdana, sans-serif;
+}
+#couleur .red {
+  color: red;
+}
+#couleur .blue {
+  color: blue;
+}
+#couleur .green {
+  color: green;
+}
+
+#fond p {
+  font-family: Tahoma, sans-serif;
+  color: white;
+  padding: 4px 8px;
+}
+#fond .red {
+  background-color: red;
+}
+#fond .blue {
+  background-color: blue;
+}
+#fond .green {
+  background-color: green;
+}
+
+/*# sourceMappingURL=colors.css.map */
